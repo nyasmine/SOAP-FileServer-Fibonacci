@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="com.mcgill.soapws.Fibonacci" name="Fibonacci" url-pattern="/Fibonacci"/>
+  <endpoint implementation="com.mcgill.soapws.Upload" name="Upload" url-pattern="/Upload"/>
+  <endpoint implementation="com.mcgill.soapws.Download" name="Download" url-pattern="/Download"/>
+</endpoints>
